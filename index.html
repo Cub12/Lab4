@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <title>Lab4</title>
+
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta name="theme-color" content="#fafafa">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</head>
+
+<body>
+  <header>
+    <p>Група: ТР-25<span id="group"></span></p>
+    <p>ПІБ: Кондратенко Сергій Сергійович<span id="fullName"></span></p>
+    <p>Варіант студента: 9<span id="variant"></span></p>
+  </header>
+
+  <table>
+    <tr>
+      <th>Опис завдання</th>
+      <th>Кнопка запуску виконання скрипту</th>
+    </tr>
+    <tr>
+      <td>1. Створити об’єкт "Турфірма" з властивостями "назва", "адреса", "телефон".</td>
+      <td><button onclick="script1()">Перший скрипт</button></td>
+    </tr>
+    <tr>
+      <td>2. Створити об’єкт "Путівка", що містить властивості "місто", "ціна", "кількість днів" і методи: порахувати
+        вартість путівки, змінити ціну, вивести.</td>
+      <td><button onclick="script2()">Другий скрипт</button></td>
+    </tr>
+    <tr>
+      <td>3. Реалізувати об’єднання властивостей і методів об’єктів "Турфірма" і "Путівка".</td>
+      <td><button onclick="script3()">Третій скрипт</button></td>
+    </tr>
+    <tr>
+      <td>4. Додати в прототип об’єкту "Турфірма" метод "Показати дані".</td>
+      <td><button onclick="script4()">Четвертий скрипт</button></td>
+    </tr>
+    <tr>
+      <td>5. Створити об’єкт "Відділ", що наслідує властивості і методи об’єкту "Турфірма" і має власну властивість
+        "адреса" і метод "Показати дані".</td>
+      <td><button onclick="script5()">П'ятий скрипт</button></td>
+    </tr>
+    <tr>
+      <td>6. Реалізувати класи "ТурфірмаКлас" і "ВідділКлас" з такими же методами і властивостями як і попередні об’єкти.
+        "Відділ" наслідує методи та властивості від "ТурфірмаКлас".</td>
+      <td><button onclick="script6()">Шостий скрипт</button></td>
+    </tr>
+  </table>
+</body>
+
+</html>
